@@ -1,13 +1,15 @@
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Team from './components/Team';
 import Process from './components/Process';
+import Pricing from './components/Pricing';
 import Contact from './components/Contact';
+import FAQ from './components/FAQ';
+import OurStory from './components/OurStory';
 import Footer from './components/Footer';
-import AIGenerator from './components/AIGenerator';
 
 const App: React.FC = () => {
   return (
@@ -17,9 +19,11 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <Services />
+        <OurStory />
         <Process />
+        <Pricing />
         <Team />
-        <AIGenerator />
+        <FAQ />
         <Contact />
       </main>
       <Footer />
